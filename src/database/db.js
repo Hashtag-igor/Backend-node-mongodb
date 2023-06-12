@@ -1,7 +1,10 @@
 import mongoose from "mongoose"
+import dotenv from "dotenv"
+
+dotenv.config()
+
 
 export default async function ConnectDatabase(){
-   await mongoose.connect(`mongodb+srv://igordb:7bRi54BD4ZkWrkI5@cluster0.au9upuw.mongodb.net/?retryWrites=true&w=majority`)
+   const connectionString = process.env.MONGODB_CONNECTION_STRING
+   await mongoose.connect(connectionString)
 }
-
-//7bRi54BD4ZkWrkI5
