@@ -5,7 +5,10 @@ import { getUsers, createUser, deleteUser } from "./controller/UserController.js
 const routes = Router()
 
 routes.get("/", (req, res) => {
-    return res.send("Hello World")
+    return res.json({
+        sucess: true,
+        message: "Sucesso!"
+    })
 })
 
 //Metodo GET
