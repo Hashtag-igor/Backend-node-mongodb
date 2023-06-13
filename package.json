@@ -10,8 +10,7 @@
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon src/index.js",
-    "vercel-build": "node src/scripts/setup-database.js"
+    "server": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
