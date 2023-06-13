@@ -25,5 +25,4 @@ ConnectDatabase()
     console.log(error)
 })
 
-
 export default app;
