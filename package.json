@@ -1,13 +1,14 @@
 {
-  "name": "backend",
+  "name": "crud-app-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "criação do arquivo \"vercel.json\";",
   "main": "src/index.js",
   "type": "module",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon src/index.js"
   },
@@ -20,6 +21,7 @@
     "mongoose": "^7.2.1",
     "nodemon": "^2.0.22",
     "dotenv": "^16.1.4"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
-
