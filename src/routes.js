@@ -4,9 +4,9 @@ import { getUsers, createUser, deleteUser } from "./controller/UserController.js
 
 const routes = Router()
 
-routes.get("/", (req, res) => {
-    return res.json("Hello World")
-})
+// routes.get("/", (req, res) => {
+//     return res.send("Hello World")
+// })
 
 //Metodo GET
 routes.get("/users", getUsers)
